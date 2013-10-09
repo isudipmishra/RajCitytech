@@ -21,6 +21,8 @@
 		C2C813A8180530540022670F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C8138A180530540022670F /* UIKit.framework */; };
 		C2C813B0180530540022670F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2C813AE180530540022670F /* InfoPlist.strings */; };
 		C2C813B2180530540022670F /* TestRajTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C813B1180530540022670F /* TestRajTests.m */; };
+		C2C813BE18053D700022670F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C813BC18053D700022670F /* LoginViewController.m */; };
+		C2C813BF18053D700022670F /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2C813BD18053D700022670F /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		C2C813AD180530540022670F /* TestRajTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestRajTests-Info.plist"; sourceTree = "<group>"; };
 		C2C813AF180530540022670F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2C813B1180530540022670F /* TestRajTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRajTests.m; sourceTree = "<group>"; };
+		C2C813BB18053D700022670F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../LoginViewController.h; sourceTree = "<group>"; };
+		C2C813BC18053D700022670F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../LoginViewController.m; sourceTree = "<group>"; };
+		C2C813BD18053D700022670F /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = ../LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +117,7 @@
 		C2C8138C180530540022670F /* TestRaj */ = {
 			isa = PBXGroup;
 			children = (
+				C2C813C018053D7B0022670F /* Login */,
 				C2C81395180530540022670F /* TestRajAppDelegate.h */,
 				C2C81396180530540022670F /* TestRajAppDelegate.m */,
 				C2C81398180530540022670F /* Main.storyboard */,
@@ -150,6 +156,16 @@
 				C2C813AE180530540022670F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2C813C018053D7B0022670F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C2C813BB18053D700022670F /* LoginViewController.h */,
+				C2C813BC18053D700022670F /* LoginViewController.m */,
+				C2C813BD18053D700022670F /* LoginViewController.xib */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2C813BF18053D700022670F /* LoginViewController.xib in Resources */,
 				C2C8139F180530540022670F /* Images.xcassets in Resources */,
 				C2C81391180530540022670F /* InfoPlist.strings in Resources */,
 				C2C8139A180530540022670F /* Main.storyboard in Resources */,
@@ -250,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2C813BE18053D700022670F /* LoginViewController.m in Sources */,
 				C2C8139D180530540022670F /* TestRajViewController.m in Sources */,
 				C2C81397180530540022670F /* TestRajAppDelegate.m in Sources */,
 				C2C81393180530540022670F /* main.m in Sources */,
