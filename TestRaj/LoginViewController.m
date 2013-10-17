@@ -31,7 +31,7 @@
     
     NSLog(@"This is second day of my git repository. Able to reach Login");
     
-    NSLog(@"Citytech");
+    NSLog(@"Citytekkkch");
 }
 
 - (void)didReceiveMemoryWarning
